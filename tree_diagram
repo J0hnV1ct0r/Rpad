@@ -1,0 +1,407 @@
+// Árvore de Decisão
+digraph {
+	"Raiz - 1926031723744" [label="Classe: 1
+Feature: 4
+Limiar: 0.30000000000000004
+Gini: 0.49" shape=box]
+	"True 1926058212480 - 1926058212480" [label="Classe: 1
+Feature: 10
+Limiar: 0.5
+Gini: 0.36" shape=box]
+	"True 1926058212672 - 1926058212672" [label="Classe: 1
+Feature: 0
+Limiar: 0.0001968503937007874
+Gini: 0.05" shape=box]
+	"True 1926067912288 - 1926067912288" [label="Classe: 1
+Feature: 0
+Limiar: 0.3007874015748032
+Gini: 0.03" shape=box]
+	"True 1926067920656 - 1926067920656" [label="Classe: 1
+Feature: 9
+Limiar: 0.5082304526748971
+Gini: 0.02" shape=box]
+	"True 1926067915280 - 1926067915280" [label="Classe: 1
+Feature: 2
+Limiar: 0.45820433436533453
+Gini: 0.18" shape=box]
+	"True 1926067918544 - 1926067918544" [label="Classe: 1
+Feature: None
+Limiar: None
+Gini: 0.00" shape=box]
+	"True 1926067915280 - 1926067915280" -> "True 1926067918544 - 1926067918544" [label=True]
+	"False 1926067925648 - 1926067925648" [label="Classe: 0
+Feature: None
+Limiar: None
+Gini: 0.00" shape=box]
+	"True 1926067915280 - 1926067915280" -> "False 1926067925648 - 1926067925648" [label=False]
+	"True 1926067920656 - 1926067920656" -> "True 1926067915280 - 1926067915280" [label=True]
+	"False 1926067915232 - 1926067915232" [label="Classe: 1
+Feature: None
+Limiar: None
+Gini: 0.00" shape=box]
+	"True 1926067920656 - 1926067920656" -> "False 1926067915232 - 1926067915232" [label=False]
+	"True 1926067912288 - 1926067912288" -> "True 1926067920656 - 1926067920656" [label=True]
+	"False 1926067918256 - 1926067918256" [label="Classe: 1
+Feature: 11
+Limiar: 0.7425334706488156
+Gini: 0.24" shape=box]
+	"True 1926067912976 - 1926067912976" [label="Classe: 1
+Feature: None
+Limiar: None
+Gini: 0.00" shape=box]
+	"False 1926067918256 - 1926067918256" -> "True 1926067912976 - 1926067912976" [label=True]
+	"False 1926067926416 - 1926067926416" [label="Classe: 0
+Feature: None
+Limiar: None
+Gini: 0.00" shape=box]
+	"False 1926067918256 - 1926067918256" -> "False 1926067926416 - 1926067926416" [label=False]
+	"True 1926067912288 - 1926067912288" -> "False 1926067918256 - 1926067918256" [label=False]
+	"True 1926058212672 - 1926058212672" -> "True 1926067912288 - 1926067912288" [label=True]
+	"False 1926067909936 - 1926067909936" [label="Classe: 0
+Feature: None
+Limiar: None
+Gini: 0.00" shape=box]
+	"True 1926058212672 - 1926058212672" -> "False 1926067909936 - 1926067909936" [label=False]
+	"True 1926058212480 - 1926058212480" -> "True 1926058212672 - 1926058212672" [label=True]
+	"False 1926023114304 - 1926023114304" [label="Classe: 1
+Feature: 7
+Limiar: 0.21809272521673578
+Gini: 0.50" shape=box]
+	"True 1926067917680 - 1926067917680" [label="Classe: 0
+Feature: 4
+Limiar: 0.40666666666666673
+Gini: 0.48" shape=box]
+	"True 1926067919504 - 1926067919504" [label="Classe: 1
+Feature: 7
+Limiar: 0.41963814549566536
+Gini: 0.26" shape=box]
+	"True 1926067912928 - 1926067912928" [label="Classe: 1
+Feature: None
+Limiar: None
+Gini: 0.00" shape=box]
+	"True 1926067919504 - 1926067919504" -> "True 1926067912928 - 1926067912928" [label=True]
+	"False 1926067921184 - 1926067921184" [label="Classe: 0
+Feature: 2
+Limiar: 0.5547987616099114
+Gini: 0.44" shape=box]
+	"True 1926067927136 - 1926067927136" [label="Classe: 0
+Feature: None
+Limiar: None
+Gini: 0.00" shape=box]
+	"False 1926067921184 - 1926067921184" -> "True 1926067927136 - 1926067927136" [label=True]
+	"False 1926067923968 - 1926067923968" [label="Classe: 1
+Feature: None
+Limiar: None
+Gini: 0.00" shape=box]
+	"False 1926067921184 - 1926067921184" -> "False 1926067923968 - 1926067923968" [label=False]
+	"True 1926067919504 - 1926067919504" -> "False 1926067921184 - 1926067921184" [label=False]
+	"True 1926067917680 - 1926067917680" -> "True 1926067919504 - 1926067919504" [label=True]
+	"False 1926067918304 - 1926067918304" [label="Classe: 0
+Feature: 11
+Limiar: 0.35036045314109165
+Gini: 0.42" shape=box]
+	"True 1926067916336 - 1926067916336" [label="Classe: 0
+Feature: 13
+Limiar: 0.0
+Gini: 0.38" shape=box]
+	"True 1926067928192 - 1926067928192" [label="Classe: 0
+Feature: 15
+Limiar: 0.6234042553191489
+Gini: 0.36" shape=box]
+	"True 1926067925792 - 1926067925792" [label="Classe: 0
+Feature: 0
+Limiar: 0.0003937007874015748
+Gini: 0.23" shape=box]
+	"True 1926067922624 - 1926067922624" [label="Classe: 0
+Feature: 11
+Limiar: 0.6851699279093717
+Gini: 0.20" shape=box]
+	"True 1926067951696 - 1926067951696" [label="Classe: 0
+Feature: None
+Limiar: None
+Gini: 0.00" shape=box]
+	"True 1926067922624 - 1926067922624" -> "True 1926067951696 - 1926067951696" [label=True]
+	"False 1926067946224 - 1926067946224" [label="Classe: 0
+Feature: 1
+Limiar: 0.6253388946819716
+Gini: 0.44" shape=box]
+	"True 1926067947088 - 1926067947088" [label="Classe: 1
+Feature: None
+Limiar: None
+Gini: 0.00" shape=box]
+	"False 1926067946224 - 1926067946224" -> "True 1926067947088 - 1926067947088" [label=True]
+	"False 1926067949824 - 1926067949824" [label="Classe: 0
+Feature: None
+Limiar: None
+Gini: 0.40" shape=box]
+	"False 1926067946224 - 1926067946224" -> "False 1926067949824 - 1926067949824" [label=False]
+	"True 1926067922624 - 1926067922624" -> "False 1926067946224 - 1926067946224" [label=False]
+	"True 1926067925792 - 1926067925792" -> "True 1926067922624 - 1926067922624" [label=True]
+	"False 1926058150896 - 1926058150896" [label="Classe: 1
+Feature: None
+Limiar: None
+Gini: 0.00" shape=box]
+	"True 1926067925792 - 1926067925792" -> "False 1926058150896 - 1926058150896" [label=False]
+	"True 1926067928192 - 1926067928192" -> "True 1926067925792 - 1926067925792" [label=True]
+	"False 1926067915568 - 1926067915568" [label="Classe: 0
+Feature: 10
+Limiar: 0.41340248118771616
+Gini: 0.49" shape=box]
+	"True 1926067928432 - 1926067928432" [label="Classe: 1
+Feature: 11
+Limiar: 0.9057672502574664
+Gini: 0.48" shape=box]
+	"True 1926067946800 - 1926067946800" [label="Classe: 0
+Feature: None
+Limiar: None
+Gini: 0.00" shape=box]
+	"True 1926067928432 - 1926067928432" -> "True 1926067946800 - 1926067946800" [label=True]
+	"False 1926067952608 - 1926067952608" [label="Classe: 1
+Feature: 2
+Limiar: 0.3266253869969036
+Gini: 0.24" shape=box]
+	"True 1926067948960 - 1926067948960" [label="Classe: 1
+Feature: None
+Limiar: None
+Gini: 0.00" shape=box]
+	"False 1926067952608 - 1926067952608" -> "True 1926067948960 - 1926067948960" [label=True]
+	"False 1926067950736 - 1926067950736" [label="Classe: 1
+Feature: None
+Limiar: None
+Gini: 0.50" shape=box]
+	"False 1926067952608 - 1926067952608" -> "False 1926067950736 - 1926067950736" [label=False]
+	"True 1926067928432 - 1926067928432" -> "False 1926067952608 - 1926067952608" [label=False]
+	"False 1926067915568 - 1926067915568" -> "True 1926067928432 - 1926067928432" [label=True]
+	"False 1926067927088 - 1926067927088" [label="Classe: 0
+Feature: 7
+Limiar: 0.5510365623822088
+Gini: 0.35" shape=box]
+	"True 1926067950448 - 1926067950448" [label="Classe: 1
+Feature: 0
+Limiar: 0.6946850393700787
+Gini: 0.44" shape=box]
+	"True 1926067952368 - 1926067952368" [label="Classe: 1
+Feature: None
+Limiar: None
+Gini: 0.00" shape=box]
+	"True 1926067950448 - 1926067950448" -> "True 1926067952368 - 1926067952368" [label=True]
+	"False 1926067953328 - 1926067953328" [label="Classe: 0
+Feature: None
+Limiar: None
+Gini: 0.00" shape=box]
+	"True 1926067950448 - 1926067950448" -> "False 1926067953328 - 1926067953328" [label=False]
+	"False 1926067927088 - 1926067927088" -> "True 1926067950448 - 1926067950448" [label=True]
+	"False 1926067949440 - 1926067949440" [label="Classe: 0
+Feature: None
+Limiar: None
+Gini: 0.00" shape=box]
+	"False 1926067927088 - 1926067927088" -> "False 1926067949440 - 1926067949440" [label=False]
+	"False 1926067915568 - 1926067915568" -> "False 1926067927088 - 1926067927088" [label=False]
+	"True 1926067928192 - 1926067928192" -> "False 1926067915568 - 1926067915568" [label=False]
+	"True 1926067916336 - 1926067916336" -> "True 1926067928192 - 1926067928192" [label=True]
+	"False 1926067916096 - 1926067916096" [label="Classe: 1
+Feature: None
+Limiar: None
+Gini: 0.00" shape=box]
+	"True 1926067916336 - 1926067916336" -> "False 1926067916096 - 1926067916096" [label=False]
+	"False 1926067918304 - 1926067918304" -> "True 1926067916336 - 1926067916336" [label=True]
+	"False 1926067919216 - 1926067919216" [label="Classe: 1
+Feature: 0
+Limiar: 0.3350393700787402
+Gini: 0.32" shape=box]
+	"True 1926067923920 - 1926067923920" [label="Classe: 1
+Feature: None
+Limiar: None
+Gini: 0.00" shape=box]
+	"False 1926067919216 - 1926067919216" -> "True 1926067923920 - 1926067923920" [label=True]
+	"False 1926067927568 - 1926067927568" [label="Classe: 0
+Feature: None
+Limiar: None
+Gini: 0.00" shape=box]
+	"False 1926067919216 - 1926067919216" -> "False 1926067927568 - 1926067927568" [label=False]
+	"False 1926067918304 - 1926067918304" -> "False 1926067919216 - 1926067919216" [label=False]
+	"True 1926067917680 - 1926067917680" -> "False 1926067918304 - 1926067918304" [label=False]
+	"False 1926023114304 - 1926023114304" -> "True 1926067917680 - 1926067917680" [label=True]
+	"False 1926058150128 - 1926058150128" [label="Classe: 1
+Feature: 13
+Limiar: 0.1
+Gini: 0.35" shape=box]
+	"True 1926067918688 - 1926067918688" [label="Classe: 1
+Feature: 8
+Limiar: 0.0
+Gini: 0.18" shape=box]
+	"True 1926067926176 - 1926067926176" [label="Classe: 0
+Feature: None
+Limiar: None
+Gini: 0.00" shape=box]
+	"True 1926067918688 - 1926067918688" -> "True 1926067926176 - 1926067926176" [label=True]
+	"False 1926067927472 - 1926067927472" [label="Classe: 1
+Feature: 1
+Limiar: 0.6573514077163782
+Gini: 0.13" shape=box]
+	"True 1926067913696 - 1926067913696" [label="Classe: 1
+Feature: 0
+Limiar: 0.4153543307086614
+Gini: 0.38" shape=box]
+	"True 1926067948528 - 1926067948528" [label="Classe: 1
+Feature: 10
+Limiar: 0.3819402074435632
+Gini: 0.24" shape=box]
+	"True 1926067947616 - 1926067947616" [label="Classe: 1
+Feature: None
+Limiar: None
+Gini: 0.00" shape=box]
+	"True 1926067948528 - 1926067948528" -> "True 1926067947616 - 1926067947616" [label=True]
+	"False 1926067952176 - 1926067952176" [label="Classe: 0
+Feature: None
+Limiar: None
+Gini: 0.00" shape=box]
+	"True 1926067948528 - 1926067948528" -> "False 1926067952176 - 1926067952176" [label=False]
+	"True 1926067913696 - 1926067913696" -> "True 1926067948528 - 1926067948528" [label=True]
+	"False 1926067946704 - 1926067946704" [label="Classe: 0
+Feature: None
+Limiar: None
+Gini: 0.00" shape=box]
+	"True 1926067913696 - 1926067913696" -> "False 1926067946704 - 1926067946704" [label=False]
+	"False 1926067927472 - 1926067927472" -> "True 1926067913696 - 1926067913696" [label=True]
+	"False 1926067919456 - 1926067919456" [label="Classe: 1
+Feature: None
+Limiar: None
+Gini: 0.00" shape=box]
+	"False 1926067927472 - 1926067927472" -> "False 1926067919456 - 1926067919456" [label=False]
+	"True 1926067918688 - 1926067918688" -> "False 1926067927472 - 1926067927472" [label=False]
+	"False 1926058150128 - 1926058150128" -> "True 1926067918688 - 1926067918688" [label=True]
+	"False 1926067913168 - 1926067913168" [label="Classe: 1
+Feature: 14
+Limiar: 0.11145038167938932
+Gini: 0.50" shape=box]
+	"True 1926067915376 - 1926067915376" [label="Classe: 1
+Feature: 0
+Limiar: 0.41732283464566927
+Gini: 0.32" shape=box]
+	"True 1926067920368 - 1926067920368" [label="Classe: 1
+Feature: None
+Limiar: None
+Gini: 0.00" shape=box]
+	"True 1926067915376 - 1926067915376" -> "True 1926067920368 - 1926067920368" [label=True]
+	"False 1926067914656 - 1926067914656" [label="Classe: 0
+Feature: None
+Limiar: None
+Gini: 0.00" shape=box]
+	"True 1926067915376 - 1926067915376" -> "False 1926067914656 - 1926067914656" [label=False]
+	"False 1926067913168 - 1926067913168" -> "True 1926067915376 - 1926067915376" [label=True]
+	"False 1926067926320 - 1926067926320" [label="Classe: 0
+Feature: 0
+Limiar: 0.5137795275590551
+Gini: 0.44" shape=box]
+	"True 1926067922816 - 1926067922816" [label="Classe: 0
+Feature: None
+Limiar: None
+Gini: 0.00" shape=box]
+	"False 1926067926320 - 1926067926320" -> "True 1926067922816 - 1926067922816" [label=True]
+	"False 1926067918928 - 1926067918928" [label="Classe: 1
+Feature: 10
+Limiar: 0.3536709375635552
+Gini: 0.38" shape=box]
+	"True 1926067948672 - 1926067948672" [label="Classe: 1
+Feature: None
+Limiar: None
+Gini: 0.00" shape=box]
+	"False 1926067918928 - 1926067918928" -> "True 1926067948672 - 1926067948672" [label=True]
+	"False 1926067946896 - 1926067946896" [label="Classe: 0
+Feature: None
+Limiar: None
+Gini: 0.00" shape=box]
+	"False 1926067918928 - 1926067918928" -> "False 1926067946896 - 1926067946896" [label=False]
+	"False 1926067926320 - 1926067926320" -> "False 1926067918928 - 1926067918928" [label=False]
+	"False 1926067913168 - 1926067913168" -> "False 1926067926320 - 1926067926320" [label=False]
+	"False 1926058150128 - 1926058150128" -> "False 1926067913168 - 1926067913168" [label=False]
+	"False 1926023114304 - 1926023114304" -> "False 1926058150128 - 1926058150128" [label=False]
+	"True 1926058212480 - 1926058212480" -> "False 1926023114304 - 1926023114304" [label=False]
+	"Raiz - 1926031723744" -> "True 1926058212480 - 1926058212480" [label=True]
+	"False 1926023353488 - 1926023353488" [label="Classe: 0
+Feature: 0
+Limiar: 0.7000000000000001
+Gini: 0.19" shape=box]
+	"True 1926067911904 - 1926067911904" [label="Classe: 1
+Feature: None
+Limiar: None
+Gini: 0.00" shape=box]
+	"False 1926023353488 - 1926023353488" -> "True 1926067911904 - 1926067911904" [label=True]
+	"False 1926031710528 - 1926031710528" [label="Classe: 0
+Feature: 5
+Limiar: 0.0014977439985145076
+Gini: 0.08" shape=box]
+	"True 1926067921136 - 1926067921136" [label="Classe: 0
+Feature: 5
+Limiar: 0.5015884516463045
+Gini: 0.06" shape=box]
+	"True 1926067925360 - 1926067925360" [label="Classe: 0
+Feature: 1
+Limiar: 0.5074035453597584
+Gini: 0.44" shape=box]
+	"True 1926067925744 - 1926067925744" [label="Classe: 0
+Feature: None
+Limiar: None
+Gini: 0.00" shape=box]
+	"True 1926067925360 - 1926067925360" -> "True 1926067925744 - 1926067925744" [label=True]
+	"False 1926067924208 - 1926067924208" [label="Classe: 1
+Feature: None
+Limiar: None
+Gini: 0.00" shape=box]
+	"True 1926067925360 - 1926067925360" -> "False 1926067924208 - 1926067924208" [label=False]
+	"True 1926067921136 - 1926067921136" -> "True 1926067925360 - 1926067925360" [label=True]
+	"False 1926067922240 - 1926067922240" [label="Classe: 0
+Feature: 8
+Limiar: 0.0
+Gini: 0.04" shape=box]
+	"True 1926067922528 - 1926067922528" [label="Classe: 0
+Feature: 5
+Limiar: 0.01256104220052482
+Gini: 0.38" shape=box]
+	"True 1926067951360 - 1926067951360" [label="Classe: 0
+Feature: None
+Limiar: None
+Gini: 0.00" shape=box]
+	"True 1926067922528 - 1926067922528" -> "True 1926067951360 - 1926067951360" [label=True]
+	"False 1926067953472 - 1926067953472" [label="Classe: 1
+Feature: None
+Limiar: None
+Gini: 0.00" shape=box]
+	"True 1926067922528 - 1926067922528" -> "False 1926067953472 - 1926067953472" [label=False]
+	"False 1926067922240 - 1926067922240" -> "True 1926067922528 - 1926067922528" [label=True]
+	"False 1926067916720 - 1926067916720" [label="Classe: 0
+Feature: 12
+Limiar: 0.30067291691294823
+Gini: 0.02" shape=box]
+	"True 1926067948720 - 1926067948720" [label="Classe: 0
+Feature: 1
+Limiar: 0.662148070907213
+Gini: 0.20" shape=box]
+	"True 1926067949104 - 1926067949104" [label="Classe: 0
+Feature: None
+Limiar: None
+Gini: 0.00" shape=box]
+	"True 1926067948720 - 1926067948720" -> "True 1926067949104 - 1926067949104" [label=True]
+	"False 1926067956064 - 1926067956064" [label="Classe: 1
+Feature: None
+Limiar: None
+Gini: 0.00" shape=box]
+	"True 1926067948720 - 1926067948720" -> "False 1926067956064 - 1926067956064" [label=False]
+	"False 1926067916720 - 1926067916720" -> "True 1926067948720 - 1926067948720" [label=True]
+	"False 1926067951840 - 1926067951840" [label="Classe: 0
+Feature: None
+Limiar: None
+Gini: 0.00" shape=box]
+	"False 1926067916720 - 1926067916720" -> "False 1926067951840 - 1926067951840" [label=False]
+	"False 1926067922240 - 1926067922240" -> "False 1926067916720 - 1926067916720" [label=False]
+	"True 1926067921136 - 1926067921136" -> "False 1926067922240 - 1926067922240" [label=False]
+	"False 1926031710528 - 1926031710528" -> "True 1926067921136 - 1926067921136" [label=True]
+	"False 1926023298800 - 1926023298800" [label="Classe: 1
+Feature: None
+Limiar: None
+Gini: 0.00" shape=box]
+	"False 1926031710528 - 1926031710528" -> "False 1926023298800 - 1926023298800" [label=False]
+	"False 1926023353488 - 1926023353488" -> "False 1926031710528 - 1926031710528" [label=False]
+	"Raiz - 1926031723744" -> "False 1926023353488 - 1926023353488" [label=False]
+}
